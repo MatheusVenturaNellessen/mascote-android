@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url('./midia/IDroid.otf'), format('opentype');
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+body {
+    background-color: #E2FCC5;
+}
+
+header {
+    background-image: linear-gradient(#214013, black);
+}
+
+header > h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    padding: 50px 20px 20px 20px;
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    margin: 0px 20px;
+    font-size: 1.5em;
+
+}
+
+nav {
+    background-color: black;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.400);
+    padding-bottom: 15px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1em;
+}
+
+nav > a:hover {
+    background-color: #E2FCC5;
+    color: black;
+    border-radius: 15px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 20px 20px;
+    max-width: 900px;
+    min-width: 320px;
+    height: auto;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+
+main h2 {
+    font-family: 'idroid';
+    color: #214013;
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 2em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+
+main h3 {
+    font-family: 'idroid';
+    font-weight: 400;
+    background-image: linear-gradient(90deg, #99BF73, transparent);
+    margin: 20px;
+    padding: 5px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.400);
+}
+
+main p {
+    text-indent: 2em;
+    margin: 20px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+main > section > article > p > a#link_externo {
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    background-color: #99BF73;
+    padding: 1px;
+}
+
+a#link_externo:hover {
+    background-color: #E2FCC5;
+    text-decoration: underline;
+}
+
+a#link_externo::after {
+    content: '\00A0\1F517';
+}
+
+main > section > article > p > strong#verde_claro {
+    color: #99BF73;
+    font-weight: 700;
+}
+
+main > section > aside > p > strong#verde_escuro {
+    color:#14260C;
+    font-weight: bold;
+}
+
+main > section > article > img {
+    display: block;
+    margin: auto;
+    width: 100%
+}
+
+main > section > article > img#img_pequena{
+    width: auto;
+}
+
+main > section > article > div.video {
+    border: 30px solid #14260C;
+    border-radius: 0px 20px;
+    box-shadow: 0px 2.5px 5px rgba(0, 0, 0, 0.400)
+}
+
+iframe {
+    width: 100%;
+}
+
+main > section > aside {
+   background-color: #99BF73;
+   margin: 30px;
+   border: 3px solid #14260C;
+   border-radius: 0px 20px;
+   box-shadow: 2.5px 2.5px 5px rgba(0, 0, 0, 0.400);
+}
+
+iframe {
+    width: 100%;
+}
+
+main > section > aside > h4 {
+    background-color: #14260C;
+    padding: 10px;
+    color: white;
+    border-top-right-radius: 15px;
+    font-size: 1.35em;
+    margin: 0px;
+    font-weight: 700;
+}
+
+aside > p {
+    text-indent: 2em;
+    margin: 20px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+main > section > aside > ul {
+    list-style-position: inside;
+    list-style-type: '\2714\00A0';
+    columns: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+
+footer > p {
+    margin: 50px auto 0px auto;
+    background-color: #214013;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+.img_redes_sociais {
+    height: 30px;
+    width: 40px;
+    display: inline-block;
+}
+
+.redes_sociais {
+    text-decoration: none;
+    color: black;
+}
+
+#linkedin:hover {
+    background-image: linear-gradient(90deg, transparent, #0288D1, transparent);
+}
+
+#github:hover {
+    background-image: linear-gradient(90deg, transparent, black, transparent);
+    color: white;
+}
+
+#embaixo {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
