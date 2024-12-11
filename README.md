@@ -1,4 +1,4 @@
-<h1>Cordel Moderno</h1>
+<h1>Mascote Android</h1>
 <p>Esse projeto teve como objetivo praticar os novos conceitos aprendidos ao decorrer do segundo módulo do curso de HTML5 e CSS3 do professor <a href="https://github.com/gustavoguanabara">Gustavo Guanabara</a>.</p>
 <h3>Tecnologias Utilizadas</h3>
 <ul>
