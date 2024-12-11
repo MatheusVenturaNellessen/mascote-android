@@ -13,7 +13,7 @@
 <h3>Como rodar o projeto</h3>
 <ol>
     <li>Clone este repositório para o seu computador.</li>
-    <li>Em seu explorador de arquivos, abra o arquivo <b>cordel-moderno.html</b> em um navegador de sua preferência.</li>
+    <li>Em seu explorador de arquivos, abra o arquivo <b>index.html</b> em um navegador de sua preferência.</li>
 </ol>
 <h3>Problemas Encontrados</h3>
 <p>Não foram encontrados problemas até o momento.</p>
